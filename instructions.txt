@@ -1,0 +1,8 @@
+youtube-dl instruction for ubuntu 18.04 lts:
+
+- sudo apt-get install -y python-pip
+- 
+- sudo pip install	 -U youtube-dl
+
+- youtube-dl --extract-audio --audio-format mp3 --output "my_file_name.%(ext)s"  https://www.youtube.com/watch?v=NVfgPfmjD38
+
